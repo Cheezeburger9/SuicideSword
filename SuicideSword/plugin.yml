@@ -1,0 +1,14 @@
+name: SuicideSword
+main: com.github.suicidesword
+version: 0.0.1
+author: PRHS_Programming_Club
+commands:
+    suicidesword:
+        description: Make your sword a suicide sword!
+        usage: /suicidesword
+        permission: suicidesword.suicidesword
+        permission-message: You do not have permission!
+permissions:
+    suicidesword.suicidesword:
+        description: Allows usage of /suicidesword
+        default: op
